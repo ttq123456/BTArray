@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập mảng</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="w-50">
+            <h3>Bài tập mảng</h3>
+            <div class="form-group">
+                <input type="text"class="form-control mb-3" id="num" placeholder="Nhập số nguyên">
+                <button type="button" class="btn btn-primary" id="btnAdd">Thêm vào mảng</button>
+                <p id="txtKq0" class="alert alert-danger"></p>
+            </div>
+
+            <h4>1. Tổng các số dương trong mảng</h4>
+            <button type="button" class="btn btn-primary" id="btnTinh1">Tính</button>
+            <p id="txtKq1" class="alert alert-danger"></p>
+
+            <h4>2. Đếm các số dương trong mảng</h4>
+            <button type="button" class="btn btn-primary" id="btnTinh2">Đếm</button>
+            <p id="txtKq2" class="alert alert-danger"></p>
+
+            <h4>3. Tìm số nhỏ nhất trong mảng</h4>
+            <button type="button" class="btn btn-primary" id="btnTinh3">Tìm số</button>
+            <p id="txtKq3" class="alert alert-danger"></p>
+
+            <h4>4. Tìm số dương nhỏ nhất trong mảng</h4>
+            <button type="button" class="btn btn-primary" id="btnTinh4">Tìm số</button>
+            <p id="txtKq4" class="alert alert-danger"></p>
+
+            <h4>5. Tìm số chẵn cuối cùng trong mảng</h4>
+            <button type="button" class="btn btn-primary" id="btnTinh5">Tìm số</button>
+            <p id="txtKq5" class="alert alert-danger"></p>
+
+            <h4>6. Đổi chổ giá trị trong mảng theo vị trí</h4>
+            <div class="form-group">
+                <input type="text"class="form-control mb-3" id="vt1" placeholder="Nhập vị trí 1">
+                <input type="text"class="form-control mb-3" id="vt2" placeholder="Nhập vị trí 2">
+            </div>
+            <button type="button" class="btn btn-primary" id="btnTinh6">Kết quả</button>
+            <p id="txtKq6" class="alert alert-danger"></p>
+
+            <h4>7. Sắp xếp tăng dần</h4>
+            <button type="button" class="btn btn-primary" id="btnTinh7">Sắp xếp</button>
+            <p id="txtKq7" class="alert alert-danger"></p>
+
+            <h4>8. Tìm số nguyên tố đầu tiên</h4>
+            <button type="button" onclick="timSoNT()" class="btn btn-primary" id="btnTinh8">Kết quả</button>
+            <p id="txtKq8" class="alert alert-danger"></p>
+
+            <h4>9. Đếm số nguyên</h4>
+            <div class="form-group">
+                <input type="text"class="form-control mb-3" id="numFloat" placeholder="Nhập số thực">
+                <button type="button" class="btn btn-primary" id="btnThem" onclick="taoMangThuc()">Thêm vào mảng</button>
+                <p id="txtThuc" class="alert alert-danger"></p>
+                <button type="button" class="btn btn-primary" id="btnDem" onclick="demSoNguyen()">Đếm số nguyên</button>
+                <p id="txtKq9" class="alert alert-danger"></p>
+            </div>
+            <h4>10. So sánh số lượng số dương và số âm</h4>
+            <button type="button" onclick="demSoAmDuong()" class="btn btn-primary" id="btnTinh10">Kết quả</button>
+            <p id="txtKq10" class="alert alert-danger"></p>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
